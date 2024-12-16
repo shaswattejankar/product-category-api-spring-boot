@@ -7,7 +7,7 @@ project uses **Oracle RDB**.
 It implements basic **CRUD operations** for both products and categories while showcasing server-side pagination and a one-to-many relationship between categories and products. 
 
 
-The application was developed as part of an assessment evaluation task (Nimap Infotech) and demonstrates the ability to build RESTful APIs using Spring Boot.  
+The application was developed as part of an assessment evaluation task and demonstrates the ability to build RESTful APIs using Spring Boot.  
 
 ---
 
@@ -67,3 +67,5 @@ The application was developed as part of an assessment evaluation task (Nimap In
 
 Local RDB created for Category should have id, type, and company_name attributes, and Product should have id, name, price(float), and category_id (foreign key) attributes.
 Set your database URL, username, and password in `application.properties` file.
+
+
