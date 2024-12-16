@@ -71,5 +71,5 @@ The application was developed as part of an assessment evaluation task and demon
 
 - Local RDB created for Category should have id, type, and company_name attributes, and Product should have id, name, price(float), and category_id (foreign key) attributes.
 - Set your database URL, username, and password in `application.properties` file.
-- Spring Project name used: NimapTaskProductCategoryApi
+- Project name used on setup: NimapTaskProductCategoryApi
 
