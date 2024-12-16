@@ -7,7 +7,7 @@ project uses **Oracle RDB**.
 It implements basic **CRUD operations** for both products and categories while showcasing server-side pagination and a one-to-many relationship between categories and products. 
 
 
-The application was developed as part of an assessment evaluation task and demonstrates the ability to build RESTful APIs using Spring Boot.  
+The application was developed as part of an assessment evaluation task (Nimap Infotech) and demonstrates the ability to build RESTful APIs using Spring Boot.  
 
 ---
 
@@ -56,12 +56,14 @@ The application was developed as part of an assessment evaluation task and demon
 
 ## Technologies Used
 
-- **Java**: Primary programming language.
-- **Spring Boot**: Framework for RESTful API development.
+- **Java** [JDK 17]: Primary programming language.
+- **Spring Boot** [3.3.6]: Framework for RESTful API development.
 - **Spring Data JPA**: ORM and database interaction.
-- **Oracle RDB**: Embedded database for development and testing.
+- **Oracle RDB** [21c and ojdbc11 ]: Embedded database for development and testing.
 - **Maven**: Build and dependency management.
+- **Postman**: Tool used for API testing. 
 
 ---
 
 Local RDB created for Category should have id, type, and company_name attributes, and Product should have id, name, price(float), and category_id (foreign key) attributes.
+Set your database URL, username, and password in `application.properties` file.
